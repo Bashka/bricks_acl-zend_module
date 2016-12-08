@@ -1,0 +1,26 @@
+{
+	"name": "bashka/bricks_acl-zend_module",
+	"description": "ZendFramework-модуль конфигурации ACL",
+	"license": "GNU-3.0",
+	"keywords": [
+		"zf2",
+		"zf3",
+		"acl"
+	],
+	"authors": [
+		{
+			"name": "Artur Sh. Mamedbekov",
+			"email": "Artur-Mamedbekov@yandex.ru"
+		}
+	],
+	"require": {
+		"php": ">=5.5.0",
+		"zendframework/zend-servicemanager": "^2.7 || ^3.1",
+		"zendframework/zend-permissions-acl": "^2.6.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"Bricks\\Acl\\": "src/"
+		}
+	}
+}
